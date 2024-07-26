@@ -1,10 +1,22 @@
-# <h1 align="center"> Criando Funções de Validação para CPF e E-mail no VSCode </h1>
+# PROJETOS COM VALIDAÇÕES
 
-# 🔨: Funcionalidades do projeto
+## Validação de CPF
 
-* [Javascript do CPF](#Título-e-Imagem-de-capa)
+### Recursos ultilizados:
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+### document.getElementById('cpfForm').addEventListener('submit', function(event):
+* Esse trecho é para adicionar um ouvinte de evento ao formulário com o id cpfForm. O evento especificado é submit, que é acionado quando o formulário é enviado.
+
+
+### event.preventDefault(); - Previne o comportamento padrão de submissão do formulário, que é o recarregamento da página.
+
+
+
+
+
+## Validação de Email
+
+
+###
+
+###
