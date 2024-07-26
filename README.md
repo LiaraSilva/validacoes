@@ -56,6 +56,9 @@
 ### return true;:
 * Se ambos os dígitos verificadores estiverem corretos, o CPF é considerado válido.
 
+## Resultado:
+http://127.0.0.1:5500/cpf.html
+
 ## Validação de Email
 
 ### Recursos Ultilizados:
@@ -87,4 +90,9 @@
 ### document.getElementById('emailDisplay').textContent = email;:
 * Atualiza o conteúdo de um parágrafo com ID 'emailDisplay' para mostrar o e-mail informado.
 
- https://avatars.githubusercontent.com/u/37356058?v=4
+## Resultado:
+http://127.0.0.1:5500/email.html
+
+# Autora
+
+<img src="L.png" width=115><br>[<sub>Liara Silva do Nascimento</sub>](https://github.com/LiaraSilva)
