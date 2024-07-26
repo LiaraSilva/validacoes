@@ -95,4 +95,4 @@ http://127.0.0.1:5500/email.html
 
 # Autora
 
-<img src="L.png" width=115><br>[<sub>Liara Silva do Nascimento</sub>](https://github.com/LiaraSilva)
+<img src="L.png" width=115><br>[<sub>Liara Silva do Nascimento</sub>](https://github.com/LiaraSilva?tab=repositories)
