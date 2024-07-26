@@ -58,7 +58,31 @@
 
 ## Validação de Email
 
+### Recursos Ultilizados:
 
-###
+### document.forms[0].email.value == "":
+* Verifica se o campo de e-mail está vazio.
 
-###
+### document.forms[0].email.value.indexOf('@') == -1:
+* Verifica se o caractere '@' está presente no e-mail. Se não estiver, indexOf retorna -1.
+
+### document.forms[0].email.value.indexOf('.') == -1:
+* Verifica se o caractere '.' está presente no e-mail. Se não estiver, indexOf retorna -1.
+
+### alert("Email informado");:
+* Exibe uma mensagem de sucesso.
+
+### document.getElementById('email').innerHTML = document.forms[0].email.value;:
+* Esta linha tenta atualizar o conteúdo HTML do elemento com o ID 'email'. No entanto, o ID 'email' provavelmente está associado ao campo de entrada, e não a um elemento que possa exibir texto. Isso pode não funcionar como esperado.
+
+### document.forms[0].email.value:
+* Obtém o valor do campo de e-mail. Para garantir que você está acessando o formulário correto, considere usar um ID para o formulário em vez de document.forms[0].
+
+### email.includes('@') e email.includes('.'):
+* Verificam a presença dos caracteres '@' e '.' usando métodos mais modernos.
+
+### Expressão Regular emailRegex:
+* Valida o formato básico do e-mail.
+
+### document.getElementById('emailDisplay').textContent = email;:
+* Atualiza o conteúdo de um parágrafo com ID 'emailDisplay' para mostrar o e-mail informado.
