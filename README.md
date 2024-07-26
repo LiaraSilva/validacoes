@@ -38,6 +38,24 @@
 ### if(resto !== parseInt(cpf.substring(9, 10))) { return false; }:
 * Compara o resto com o primeiro dígito verificador no CPF.
 
+### for(let i = 1; i <= 10; i++) { ... }:
+* Calcula a soma ponderada dos primeiros 10 dígitos para validar o segundo dígito verificador.
+
+### soma += parseInt(cpf.substring(i - 1, i)) * (12 - i);:
+* Adiciona o produto do dígito atual pelo seu peso na soma.
+
+### resto = (soma * 10) % 11;:
+* Calcula o resto da divisão da soma por 11 e ajusta se necessário.
+
+### if(resto === 10 || resto === 11) { resto = 0; }:
+* Ajusta o resto para 0 se for 10 ou 11.
+
+### if(resto !== parseInt(cpf.substring(10, 11))) { return false; }:
+* Compara o resto com o segundo dígito verificador no CPF.
+
+### return true;:
+* Se ambos os dígitos verificadores estiverem corretos, o CPF é considerado válido.
+
 ## Validação de Email
 
 
