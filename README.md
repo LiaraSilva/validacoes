@@ -8,7 +8,8 @@
 * Esse trecho é para adicionar um ouvinte de evento ao formulário com o id cpfForm. O evento especificado é submit, que é acionado quando o formulário é enviado.
 
 
-### event.preventDefault(); - Previne o comportamento padrão de submissão do formulário, que é o recarregamento da página.
+### event.preventDefault():
+* Previne o comportamento padrão de submissão do formulário, que é o recarregamento da página.
 
 
 
