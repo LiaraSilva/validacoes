@@ -86,3 +86,5 @@
 
 ### document.getElementById('emailDisplay').textContent = email;:
 * Atualiza o conteúdo de um parágrafo com ID 'emailDisplay' para mostrar o e-mail informado.
+
+ https://avatars.githubusercontent.com/u/37356058?v=4
